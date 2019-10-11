@@ -158,10 +158,35 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+a {
+  text-decoration: none;
+  color: #23293B;
+  font-size: 1.6rem;
+}
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+nav {
+  background-color: #F6F6F6;
+  padding: 2rem 0 1.3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+}
+nav h1 {
+  margin-bottom: 1.3rem;
+}
+nav .links {
+  width: 33%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
 }
 footer {
   color: #22283B;

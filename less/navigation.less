@@ -1,1 +1,17 @@
-// Navigation code here
+ // Navigation code here
+
+ nav {
+  background-color: @nav-bg;
+  padding: 2rem 0 1.3rem 0;
+
+  .custom-layout(center, center, column, no-wrap);
+
+  h1 {
+    margin-bottom: 1.3rem;
+  }
+
+  .links {
+    width: 33%;
+    .custom-layout(@justify:space-around);
+  }
+ }
