@@ -1,1 +1,29 @@
-// Navigation code here
+ // Navigation code here
+
+ nav {
+  background-color: @wild-sand-transparent;
+  padding: 2rem 0 1.3rem 0;
+  border-bottom: 2px solid @nav-border;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+  .custom-layout(center, center, column, no-wrap);
+
+  h1 {
+    margin-bottom: 1.3rem;
+  }
+
+  .links {
+    width: 35rem;
+    .custom-layout(@justify:space-around);
+
+    @media @phone {
+      width: 37rem;
+    }
+
+    a {
+      color: @nav-font;
+    }
+  }
+ }

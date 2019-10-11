@@ -1,1 +1,25 @@
 // Mixins Here
+
+.custom-layout(@justify: center, @align: center, @direction: row, @wrap: no-wrap) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+  flex-direction: @direction;
+  flex-wrap: @wrap;
+}
+
+.custom-btn(@font-size, @bg-color, @txt-color, @width, @corners, @padding, @margin) {
+  text-align: center;
+  font-size: @font-size;
+  background-color: @bg-color;
+  color: @txt-color;
+  width: @width;
+  border-radius: @corners;
+  padding: @padding;
+  margin: @margin;
+}
+
+.swap-colors(@bg-color, @txt-color) { //Swaps the background color and text color of a button
+  color: @bg-color;
+  background-color: @txt-color;
+}

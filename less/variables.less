@@ -1,7 +1,7 @@
 // Variables
 
 // Color pointers
-@nav-bg: @wild-sand;
+@nav-bg: @wild-sand-transparent;
 @nav-font: @river-bend;
 @nav-border: @sea-shell;
 
@@ -12,7 +12,11 @@
 @footer-background: @wild-sand;
 @footer-font-color: @waterloo;
 
+@btn-bg: @ebony-clay;
+@btn-txt: @porcelain;
+
 // Color Vars
+@wild-sand-transparent: rgba(246, 246, 246, 0.9);
 @wild-sand: #F6F6F6;
 @river-bend: #454A59;
 @sea-shell: #F1F1F1;
@@ -24,3 +28,9 @@
 @border-real: #dee2e6;
 
 // Mobile var
+@phone: ~'(max-width: 500px)';
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to {opacity: 1; }
+}
