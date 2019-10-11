@@ -62,6 +62,11 @@
       }
 
       .btn {
+        .custom-btn(1.6rem, @btn-bg, @btn-txt, 100px, 5px, 8px 10px, 25px 0);
+
+        &:hover {
+          .swap-colors(@btn-bg, @btn-txt);
+        }
       }
     }
 
