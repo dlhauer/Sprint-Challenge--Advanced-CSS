@@ -171,6 +171,7 @@ a {
 nav {
   background-color: #F6F6F6;
   padding: 2rem 0 1.3rem 0;
+  border-bottom: 2px solid #F1F1F1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,12 +182,15 @@ nav h1 {
   margin-bottom: 1.3rem;
 }
 nav .links {
-  width: 33%;
+  width: 35rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
   flex-wrap: no-wrap;
+}
+nav .links a {
+  color: #454A59;
 }
 footer {
   color: #22283B;
@@ -197,6 +201,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 7px;
 }
 .home .intro h2 {
   padding: 15px;
